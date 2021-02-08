@@ -67,26 +67,3 @@ for filename in images:
     
     # let's visualize
     plt.show()
-    """
-    # Define a new figure
-    fig2 = plt.figure(figsize=(7,4))
-    
-    # Give this new figure a subplot, which will contain the histogram itself
-    ax = fig2.add_subplot(111)
-    
-    # Add a title & (x,y) labels to the plot
-    plt.title("NDWI Histogram", fontsize=18, fontweight='bold')
-    plt.xlabel("NDWI values", fontsize=14)
-    plt.ylabel("Number of pixels", fontsize=14)
-    
-    # For the x-axis, we want to count every pixel that is not an empty value
-    x = ndvi[~numpy.isnan(ndvi)]
-    color = 'b'
-    # call 'hist` with our x-axis, bins, and color details
-    ax.hist(x,bins=30,color=color,histtype='bar', ec='black')
-    
-    # Save the generated figure to an external image file
-    #fig2.savefig("ndvi-histogram.png", dpi=200, bbox_inches='tight', pad_inches=0.5)
-    
-    plt.show()
-    """
