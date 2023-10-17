@@ -1,5 +1,8 @@
 # Satellite-image-processing-in-python
 
+- Evaluation of seawater quality in ports using remote sensing method
+  https://hrcak.srce.hr/file/405381
+
 Organizatiors: Serbian Case for Space, Planet (company based in San Francsisco)
 
 Aim: to use satellite image data to find a way of solving problems in environment or smart citys.
